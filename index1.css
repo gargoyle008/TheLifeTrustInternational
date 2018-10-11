@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+
+.responsive{
+    position: static;
+    border: 0px;
+    
+    width: 1278px;
+    height: 125px;
+}
+
+.para{
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+}
+li{
+    border-right: 1px solid #bbb;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.trustee{
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: fantasy;
+    font-style: italic;
+}
+.trust{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: normal;
+    
+}
+
+.content{
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+    
+}
+
+.scrolling-wrapper-flexbox {
+   
+  display:inline-flex;
+  flex-wrap:nowrap;
+  overflow-x: auto;
+    margin-left: 0px;
+}
+  .card {
+    display: inline-block;
+      display: flex;
+      margin: auto;
+      
+  
+       height: 160px;
+      
+      width: 200px;
+    
+      list-style-image: inherit;
+  }
+.flag{
+    float: right;
+    height: 30px;
+    width: 60px;
+    align-self: auto;
+}
