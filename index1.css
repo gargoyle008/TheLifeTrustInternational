@@ -12,7 +12,7 @@ body{
 
 .para{
     text-align: center;
-    font-family: monospace;
+    font-family:inherit;
     font-size: 20px;
     margin: 5px;
 }
@@ -94,3 +94,28 @@ li{
     width: 60px;
     align-self: auto;
 }
+.content1{
+    height: 180px;
+    width: 180px;
+    margin-left: 180px;
+    margin-right: 180px;
+    align-items: center;
+}
+.para1{
+    text-align: center;
+    font-family:inherit;
+    font-size: 18px;
+    margin: 5px;
+}
+#marqueecontainer{
+position: relative;
+width: 300px; /*marquee width */
+height: 500px; /*marquee height */
+background-color: white;
+overflow: hidden;
+border: 3px solid rgba(37, 223, 247, 0.67);
+padding: 2px;
+padding-left: 4px;
+}
+
+</style>
